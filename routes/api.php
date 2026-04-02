@@ -23,7 +23,7 @@ Route::get('/', function () {
     ]);
 });
 
-Route::apiResource('usuarios', UsuarioController::class);
+
 Route::apiResource('roles', RolController::class);
 Route::apiResource('carreras', CarreraController::class);
 Route::apiResource('materias', MateriaController::class);
